@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body> 
     <!--Шапка -->
     <header>
+        <section class="section">
+        <div class="container">
+
     <nav>
        <a href="" class="logo"><span class="logo-part">Web</span>Studio</a>
         <ul class="site-nav list">
@@ -25,20 +32,23 @@
             <li><a href="mailto:info@devstudio.com" class="list-nav">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="list-nav">+38 096 111 11 11</a></li>
         </ul>
-   
-
+        </div>
+      </section>
     </header>
     <!--Основна секція-->
  <main>
    
-   <section>
+   <section class="section">
+
+     <div class="container">
+     
     <h1 class="visually-hidden">Портфолио</h1>
-     <ul class="list">
-        <li><button type="button" class="list-button">Все</button></li>
-        <li><button type="button" class="list-button">Веб-сайты</button></li>
-        <li><button type="button" class="list-button">Приложения</button></li>
-        <li><button type="button" class="list-button">Дизайн</button></li>
-        <li><button type="button" class="list-button">Маркетинг</button></li>
+     <ul class="list list-button">
+        <li><button type="button" class="button-list">Все</button></li>
+        <li><button type="button" class="button-list">Веб-сайты</button></li>
+        <li><button type="button" class="button-list">Приложения</button></li>
+        <li><button type="button" class="button-list">Дизайн</button></li>
+        <li><button type="button" class="button-list">Маркетинг</button></li>
      </ul>
      <ul class="list">
          <li><a><img src="./images/img31.jpg" alt="Фото людей в компьютере" width="370">
@@ -78,22 +88,21 @@
             <p class="text-portfolio">Приложение</p></a>
         </li>
      </ul>
-    </section>
+    </div>
+   </section>
  </main>
     <!--Футер-->
     <footer>
-       
-        <a href="" class="logo"><span class="logo-part">Web</span>Studio</a>
-          <address>
-            <ul class="list">
-               <li><a href="" class="list-footer">г. Киев, пр-т Леси Украинки, 26</a></li>
-               <li><a href="mailto:info@example.com" class="list-footer-nav">info@example.com</a></li>
-               <li><a href="tel:+380961111111" class="list-footer-nav">+38 096 111 11 11</a></li>
-
-            </ul>
-          </address>
-        
-
+        <div class="container">
+            <a href="" class="logo"><span class="logo-part">Web</span>Studio</a>
+            <address>
+                <ul class="list">
+                    <li><a href="" class="list-footer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a href="mailto:info@example.com" class="list-footer-nav">info@example.com</a></li>
+                    <li><a href="tel:+380961111111" class="list-footer-nav">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>

@@ -11,6 +11,18 @@ body {
   font-family: Roboto, sant-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .list {
   list-style: none;
 }
@@ -49,6 +61,10 @@ body {
   text-decoration: none;
 }
 
+.list-button {
+  margin-bottom: 50px;
+}
+
 .list-nav:hover,
 .list-nav:focus {
   color: var(--accent-color);
@@ -62,6 +78,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-color: aqua; */
 }
 
 /* ---------------HERO----------- */
@@ -78,6 +103,13 @@ body {
   margin: -1px;
 }
 
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+
+  /* background-color: wheat; */
+}
+
 .hero-text {
   color: #ffffff;
 
@@ -85,14 +117,19 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 button {
+  display: inline-block;
+  border: 1px transparent;
   font-family: inherit;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button-hero:hover,
@@ -105,12 +142,12 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
 }
 
-.list-button:hover,
-.list-button:focus {
+.button-list:hover,
+.button-list:focus {
   background-color: var(--accent-color);
   color: #e5e5e5;
 
@@ -120,20 +157,30 @@ button {
   letter-spacing: 0.03em;
 }
 
-.list-button {
+.button-list {
   background-color: #f5f4fa;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 }
 
 .team {
   background-color: #f5f4fa;
 }
+
+.section {
+  padding-bottom: 94px;
+  paddingn-top: 94px;
+}
+
 .section-title {
   color: var(--title-text-color);
+
+  margin-bottom: 50px;
+  margin-top: 0px;
 
   font-weight: 700;
   font-size: 36px;
@@ -145,6 +192,9 @@ button {
 .section-title-small {
   color: var(--title-text-color);
 
+  margin-bottom: 10px;
+  margin-top: 0px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -153,6 +203,8 @@ button {
 }
 
 .section-text {
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -164,6 +216,9 @@ button {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .section-position {
@@ -179,6 +234,9 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
 
 .text-portfolio {
