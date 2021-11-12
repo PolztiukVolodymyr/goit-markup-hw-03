@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
   color: var(--primery-text-color);
 
   font-family: Roboto, sant-serif;
@@ -25,8 +25,16 @@ ul {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 /* -------------HEADER ------------- */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .logo {
   color: var(--title-text-color);
   font-family: Raleway;
@@ -42,7 +50,27 @@ ul {
   color: var(--accent-color);
 }
 
+/* -------------MAIN_NAV---------- */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* site nav */
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.item {
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -61,16 +89,23 @@ ul {
   text-decoration: none;
 }
 
-.list-button {
-  margin-bottom: 50px;
-}
+/* ----------LIST NAV------- */
 
-.list-nav:hover,
-.list-nav:focus {
+.link-nav:hover,
+.link-nav:focus {
   color: var(--accent-color);
 }
 
-.list-nav {
+.list-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.list-contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.link-nav {
   color: var(--primery-text-color);
 
   font-weight: 500;
@@ -79,6 +114,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -111,7 +147,7 @@ ul {
 }
 
 .hero-text {
-  color: #ffffff;
+  color: gray;
 
   font-style: normal;
   font-weight: 900;
@@ -146,8 +182,8 @@ button {
   padding: 10px 32px;
 }
 
-.button-list:hover,
-.button-list:focus {
+.button-item:hover,
+.button-item:focus {
   background-color: var(--accent-color);
   color: #e5e5e5;
 
@@ -157,7 +193,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-.button-list {
+.button-item {
   background-color: #f5f4fa;
   color: var(--title-text-color);
   font-weight: 500;
@@ -165,6 +201,21 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+}
+
+/* .list .list-button{
+  margin-right: auto;
+  margin-left: auto; */
+
+/* --------Наши преимущества------- */
+
+.list-benefits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-benefits .item {
+  width: 270px;
 }
 
 .team {
@@ -210,6 +261,24 @@ button {
   letter-spacing: 0.03em;
 }
 
+/*------Чем мы занимаемся---- */
+
+.list-craft {
+  display: flex;
+  justify-content: space-between;
+}
+/*------- Наша команда------- */
+
+.list-team {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.item-team {
+  border: 1px solid var(--primery-text-color);
+}
+
 .section-name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -217,14 +286,15 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  margin-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .section-position {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .list-title {
@@ -239,13 +309,42 @@ button {
   margin-top: 0px;
 }
 
+/* -------------PORTFOLIO------------ */
+
+.list-button {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 94px;
+  justify-content: center;
+}
+
+.btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .text-portfolio {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-gallery {
+  margin-bottom: 30px;
+}
+
 /* ---------------FOOTER----------------- */
+
+.footer {
+  background-color: grey;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .list-footer:hover,
 .list-footer:focus {
@@ -273,4 +372,17 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.item-footer {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.item-footer-nav {
+  margin-bottom: 9px;
+}
+
+.logo-footer {
+  color: #ffffff;
 }
