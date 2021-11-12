@@ -33,6 +33,7 @@ ul {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .logo {
@@ -305,8 +306,8 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
-  margin-left: 20px;
+  /* margin-top: 20px;
+  margin-left: 20px; */
 }
 
 /* -------------PORTFOLIO------ */
@@ -326,8 +327,8 @@ button {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-top: 4px;
-  margin-left: 20px;
+  /* margin-top: 4px;
+  margin-left: 20px; */
 }
 
 .flex-container {
@@ -343,6 +344,13 @@ button {
   margin-top: 30px;
 }
 
+.wrap {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
 /* ---------------FOOTER--------- */
 
 .footer {
