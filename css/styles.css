@@ -142,7 +142,9 @@ ul {
 
 .hero {
   text-align: center;
-  margin-bottom: 94px;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   /* background-color: wheat; */
 }
@@ -154,11 +156,14 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  max-width: 800px;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
   margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -169,13 +174,14 @@ button {
   border-radius: 4px;
 }
 
-.button-hero:hover,
+/* .button-hero:hover,
 .button-hero:focus {
-  background-color: var(--accent-color);
-  color: #e5e5e5;
-}
+ 
+} */
 
 .button-hero {
+  background-color: var(--accent-color);
+  color: #e5e5e5;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -209,6 +215,10 @@ button {
   margin-left: auto; */
 
 /* --------Наши преимущества----- */
+
+.benefits {
+  padding-top: 94px;
+}
 
 .list-benefits {
   display: flex;
@@ -270,14 +280,21 @@ button {
 }
 /*------- Наша команда------- */
 
+.team {
+  padding-top: 94px;
+}
+
+.wrapper {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .list-team {
   display: flex;
   justify-content: space-between;
   text-align: center;
-}
-
-.item-team {
-  border: 1px solid var(--primery-text-color);
 }
 
 .section-name {
@@ -286,8 +303,6 @@ button {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  margin-top: 30px;
 }
 
 .section-position {
@@ -295,7 +310,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .list-title {
@@ -314,8 +329,8 @@ button {
 
 .list-button {
   display: flex;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  padding-bottom: 50px;
+  padding-top: 94px;
   justify-content: center;
 }
 
@@ -342,6 +357,10 @@ button {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.pic {
+  display: block;
 }
 
 .wrap {
