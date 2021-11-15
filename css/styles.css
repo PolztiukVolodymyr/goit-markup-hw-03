@@ -33,7 +33,7 @@ ul {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -156,7 +156,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  max-width: 800px;
+  max-width: 696px;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -363,7 +363,7 @@ button {
   display: block;
 }
 
-.wrap {
+.holder {
   border: 1px solid #eeeeee;
   border-top: none;
   padding-top: 20px;
